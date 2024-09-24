@@ -26,5 +26,5 @@ export default {
 		],
 		
 	},
-	safelist:["primary","secondary","accent","neutral","base","info","success","warning","error"],
+	safelist:["bg-primary","bg-secondary","bg-accent","bg-neutral","bg-base","bg-info","bg-success","bg-warning","bg-error"],
 };
