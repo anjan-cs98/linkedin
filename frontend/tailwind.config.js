@@ -3,6 +3,7 @@ import daisyui from "daisyui";
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+	safelist:["bg-primary","bg-secondary","bg-accent","bg-neutral","bg-base","bg-info","bg-success","bg-warning","bg-error"],
 	theme: {
 		extend: {},
 	},
