@@ -44,7 +44,7 @@ const LoginForm = () => {
 				required
 			/>
 
-			<button type='submit' className='btn btn-blue-600 w-full'>
+			<button type='submit' className='btn bg-blue-600 w-full'>
 				{isLoading ? <Loader className='size-5 animate-spin' /> : "Login"}
 			</button>
 		</form>
