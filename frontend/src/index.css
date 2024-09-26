@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media (max-width: 640px) {
+       /* Mobile styles */
+       .custom-class {
+         padding: 0.5rem;
+       }
+     }
+     
