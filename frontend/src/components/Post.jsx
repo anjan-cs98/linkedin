@@ -162,7 +162,7 @@ const Post = ({ post }) => {
 							value={newComment}
 							onChange={(e) => setNewComment(e.target.value)}
 							placeholder='Add a comment...'
-							className='flex-grow p-2 rounded-l-full bg-base-100 focus:outline-none focus:ring-2 focus:ring-blue-600'
+							className='flex-grow p-2 rounded-l-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600'
 						/>
 
 						<button

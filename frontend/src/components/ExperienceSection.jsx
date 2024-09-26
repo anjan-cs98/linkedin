@@ -109,14 +109,14 @@ const ExperienceSection = ({ userData, isOwnProfile, onSave }) => {
 							placeholder='End Date'
 							value={newExperience.endDate}
 							onChange={(e) => setNewExperience({ ...newExperience, endDate: e.target.value })}
-							className='w-full p-2 border rounded mb-2'
+							className='w-full p-2 border rounded mb-2  bg-gray-100'
 						/>
 					)}
 					<textarea
 						placeholder='Description'
 						value={newExperience.description}
 						onChange={(e) => setNewExperience({ ...newExperience, description: e.target.value })}
-						className='w-full p-2 border rounded mb-2'
+						className='w-full p-2 border rounded mb-2  bg-gray-100'
 					/>
 					<button
 						onClick={handleAddExperience}

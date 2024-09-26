@@ -61,28 +61,28 @@ const EducationSection = ({ userData, isOwnProfile, onSave }) => {
 						placeholder='School'
 						value={newEducation.school}
 						onChange={(e) => setNewEducation({ ...newEducation, school: e.target.value })}
-						className='w-full p-2 border rounded mb-2'
+						className='w-full p-2 border rounded mb-2  bg-gray-100'
 					/>
 					<input
 						type='text'
 						placeholder='Field of Study'
 						value={newEducation.fieldOfStudy}
 						onChange={(e) => setNewEducation({ ...newEducation, fieldOfStudy: e.target.value })}
-						className='w-full p-2 border rounded mb-2'
+						className='w-full p-2 border rounded mb-2  bg-gray-100'
 					/>
 					<input
 						type='number'
 						placeholder='Start Year'
 						value={newEducation.startYear}
 						onChange={(e) => setNewEducation({ ...newEducation, startYear: e.target.value })}
-						className='w-full p-2 border rounded mb-2'
+						className='w-full p-2 border rounded mb-2  bg-gray-100'
 					/>
 					<input
 						type='number'
 						placeholder='End Year'
 						value={newEducation.endYear}
 						onChange={(e) => setNewEducation({ ...newEducation, endYear: e.target.value })}
-						className='w-full p-2 border rounded mb-2'
+						className='w-full p-2 border rounded mb-2  bg-gray-100'
 					/>
 					<button
 						onClick={handleAddEducation}

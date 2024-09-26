@@ -198,7 +198,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 							type='text'
 							value={editedData.name ?? userData.name}
 							onChange={(e) => setEditedData({ ...editedData, name: e.target.value })}
-							className='text-2xl font-bold mb-2 text-center w-full'
+							className='text-2xl font-bold mb-2 text-center w-full  bg-gray-100'
 						/>
 					) : (
 						<h1 className='text-2xl font-bold mb-2'>{userData.name}</h1>
@@ -209,7 +209,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 							type='text'
 							value={editedData.headline ?? userData.headline}
 							onChange={(e) => setEditedData({ ...editedData, headline: e.target.value })}
-							className='text-gray-600 text-center w-full'
+							className='text-gray-600 text-center w-full  bg-gray-100'
 						/>
 					) : (
 						<p className='text-gray-600'>{userData.headline}</p>
@@ -222,7 +222,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 								type='text'
 								value={editedData.location ?? userData.location}
 								onChange={(e) => setEditedData({ ...editedData, location: e.target.value })}
-								className='text-gray-600 text-center'
+								className='text-gray-600 text-center  bg-gray-100'
 							/>
 						) : (
 							<span className='text-gray-600'>{userData.location}</span>

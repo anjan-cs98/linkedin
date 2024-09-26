@@ -38,7 +38,7 @@ const SignUpForm = () => {
 				placeholder='Full name'
 				value={name}
 				onChange={(e) => setName(e.target.value)}
-				className='input input-bordered w-full'
+				className='input input-bordered w-full  bg-gray-100'
 				required
 			/>
 			<input
@@ -46,7 +46,7 @@ const SignUpForm = () => {
 				placeholder='Username'
 				value={username}
 				onChange={(e) => setUsername(e.target.value)}
-				className='input input-bordered w-full'
+				className='input input-bordered w-full  bg-gray-100'
 				required
 			/>
 			<input
@@ -54,7 +54,7 @@ const SignUpForm = () => {
 				placeholder='Email'
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
-				className='input input-bordered w-full'
+				className='input input-bordered w-full  bg-gray-100'
 				required
 			/>
 			<input
@@ -62,7 +62,7 @@ const SignUpForm = () => {
 				placeholder='Password (6+ characters)'
 				value={password}
 				onChange={(e) => setPassword(e.target.value)}
-				className='input input-bordered w-full'
+				className='input input-bordered w-full  bg-gray-100'
 				required
 			/>
                
