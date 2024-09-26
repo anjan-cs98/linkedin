@@ -23,7 +23,7 @@ const AboutSection = ({ userData, isOwnProfile, onSave }) => {
 							/>
 							<button
 								onClick={handleSave}
-								className='mt-2 bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark 
+								className='mt-2 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-600-dark 
 								transition duration-300'
 							>
 								Save
@@ -34,7 +34,7 @@ const AboutSection = ({ userData, isOwnProfile, onSave }) => {
 							<p>{userData.about}</p>
 							<button
 								onClick={() => setIsEditing(true)}
-								className='mt-2 text-primary hover:text-primary-dark transition duration-300'
+								className='mt-2 text-blue-600 hover:text-blue-600-dark transition duration-300'
 							>
 								Edit
 							</button>

@@ -20,7 +20,7 @@ export default {
     themes: [
       {
         linkedin: {
-       //    primary: "#0A66C2", // LinkedIn Blue
+       //    blue-600: "#0A66C2", // LinkedIn Blue
        //    secondary: "#FFFFFF", // White
        //    accent: "#7FC15E", // LinkedIn Green (for accents)
        //    neutral: "#000000", // Black (for text)
@@ -34,8 +34,8 @@ export default {
     ],
   },
   safelist: [
-    "bg-primary",
-    "bg-secondary",
+    "bg-blue-600",
+    "bg-white",
     "bg-accent",
     "bg-neutral",
     "bg-base",
