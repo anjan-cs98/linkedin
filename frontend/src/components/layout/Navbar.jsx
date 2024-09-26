@@ -88,10 +88,10 @@ const Navbar = () => {
 							</>
 						) : (
 							<>
-								<Link to='/login' className='btn text-white bg-blue-600'>
+								<Link to='/login' className='btn bg-blue-600'>
 									Sign In
 								</Link>
-								<Link to='/signup' className='btn text-white bg-blue-600'>
+								<Link to='/signup' className='btn bg-blue-600'>
 									Join now
 								</Link>
 							</>
