@@ -86,7 +86,7 @@ const Post = ({ post }) => {
 	};
 
 	return (
-		<div className='bg-secondary rounded-lg shadow mb-4'>
+		<div className='bg-white rounded-lg shadow mb-4'>
 			<div className='p-4'>
 				<div className='flex items-center justify-between mb-4'>
 					<div className='flex items-center'>
@@ -162,12 +162,12 @@ const Post = ({ post }) => {
 							value={newComment}
 							onChange={(e) => setNewComment(e.target.value)}
 							placeholder='Add a comment...'
-							className='flex-grow p-2 rounded-l-full bg-base-100 focus:outline-none focus:ring-2 focus:ring-primary'
+							className='flex-grow p-2 rounded-l-full bg-base-100 focus:outline-none focus:ring-2 focus:ring-blue-600'
 						/>
 
 						<button
 							type='submit'
-							className='bg-primary text-white p-2 rounded-r-full hover:bg-primary-dark transition duration-300'
+							className='bg-blue-600 text-white p-2 rounded-r-full hover:bg-blue-600-dark transition duration-300'
 							disabled={isAddingComment}
 						>
 							{isAddingComment ? <Loader size={18} className='animate-spin' /> : <Send size={18} />}

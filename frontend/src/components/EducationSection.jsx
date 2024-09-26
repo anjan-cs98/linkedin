@@ -86,7 +86,7 @@ const EducationSection = ({ userData, isOwnProfile, onSave }) => {
 					/>
 					<button
 						onClick={handleAddEducation}
-						className='bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark transition duration-300'
+						className='bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-600-dark transition duration-300'
 					>
 						Add Education
 					</button>
@@ -98,7 +98,7 @@ const EducationSection = ({ userData, isOwnProfile, onSave }) => {
 					{isEditing ? (
 						<button
 							onClick={handleSave}
-							className='mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark
+							className='mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-600-dark
 							 transition duration-300'
 						>
 							Save Changes
@@ -106,7 +106,7 @@ const EducationSection = ({ userData, isOwnProfile, onSave }) => {
 					) : (
 						<button
 							onClick={() => setIsEditing(true)}
-							className='mt-4 text-primary hover:text-primary-dark transition duration-300'
+							className='mt-4 text-blue-600 hover:text-blue-600-dark transition duration-300'
 						>
 							Edit Education
 						</button>

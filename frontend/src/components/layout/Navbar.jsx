@@ -32,7 +32,7 @@ const Navbar = () => {
 	const unreadConnectionRequestsCount = connectionRequests?.data?.length;
 
 	return (
-		<nav className='bg-secondary shadow-md sticky top-0 z-10'>
+		<nav className='bg-white shadow-md sticky top-0 z-10'>
 			<div className='max-w-7xl mx-auto px-4'>
 				<div className='flex justify-between items-center py-3'>
 					<div className='flex items-center space-x-4'>
@@ -43,11 +43,11 @@ const Navbar = () => {
 					<div className='flex items-center gap-2 md:gap-6'>
 						{authUser ? (
 							<>
-								<Link to={"/"} className='text-neutral flex flex-col items-center'>
+								<Link to={"/"} className='text-black flex flex-col items-center'>
 									<Home size={20} />
 									<span className='text-xs hidden md:block'>Home</span>
 								</Link>
-								<Link to='/network' className='text-neutral flex flex-col items-center relative'>
+								<Link to='/network' className='text-black flex flex-col items-center relative'>
 									<Users size={20} />
 									<span className='text-xs hidden md:block'>My Network</span>
 									{unreadConnectionRequestsCount > 0 && (
@@ -59,7 +59,7 @@ const Navbar = () => {
 										</span>
 									)}
 								</Link>
-								<Link to='/notifications' className='text-neutral flex flex-col items-center relative'>
+								<Link to='/notifications' className='text-black flex flex-col items-center relative'>
 									<Bell size={20} />
 									<span className='text-xs hidden md:block'>Notifications</span>
 									{unreadNotificationCount > 0 && (
@@ -73,7 +73,7 @@ const Navbar = () => {
 								</Link>
 								<Link
 									to={`/profile/${authUser.username}`}
-									className='text-neutral flex flex-col items-center'
+									className='text-black flex flex-col items-center'
 								>
 									<User size={20} />
 									<span className='text-xs hidden md:block'>Me</span>
@@ -91,7 +91,7 @@ const Navbar = () => {
 								<Link to='/login' className='btn btn-ghost'>
 									Sign In
 								</Link>
-								<Link to='/signup' className='btn btn-primary'>
+								<Link to='/signup' className='btn btn-blue-600'>
 									Join now
 								</Link>
 							</>

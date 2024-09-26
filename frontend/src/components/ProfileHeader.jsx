@@ -123,7 +123,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 				return (
 					<button
 						onClick={() => sendConnectionRequest(userData._id)}
-						className='bg-primary hover:bg-primary-dark text-white py-2 px-4 rounded-full transition duration-300 flex items-center justify-center'
+						className='bg-blue-600 hover:bg-blue-600-dark text-white py-2 px-4 rounded-full transition duration-300 flex items-center justify-center'
 					>
 						<UserPlus size={20} className='mr-2' />
 						Connect
@@ -233,7 +233,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 				{isOwnProfile ? (
 					isEditing ? (
 						<button
-							className='w-full bg-primary text-white py-2 px-4 rounded-full hover:bg-primary-dark
+							className='w-full bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-600-dark
 							 transition duration-300'
 							onClick={handleSave}
 						>
@@ -242,7 +242,7 @@ const ProfileHeader = ({ userData, onSave, isOwnProfile }) => {
 					) : (
 						<button
 							onClick={() => setIsEditing(true)}
-							className='w-full bg-primary text-white py-2 px-4 rounded-full hover:bg-primary-dark
+							className='w-full bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-600-dark
 							 transition duration-300'
 						>
 							Edit Profile
